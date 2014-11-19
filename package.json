@@ -1,0 +1,48 @@
+{
+  "name": "jd_node_base",
+  "version": "0.0.1",
+  "description": "a sample node.js app for jae",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "compression": "^1.2.0",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "ejs": "*",
+    "express": "~4.9.0",
+    "express-partials": "^0.3.0",
+    "http-client": "~1.0.0",
+    "mime": "*",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "socket.io": "*",
+    "xss": "^0.1.12"
+  },
+  "engines": {
+    "node": "0.10.13",
+    "npm": "1.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://code.jd.com/jdappengine/jd_node_base_1.git"
+  },
+  "keywords": [
+    "node",
+    "jae"
+  ],
+  "author": "jae",
+  "license": "BSD",
+  "gitHead": "a4c182a5121aa047e62f13be1135e6fb309dae4f",
+  "optionalDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.1",
+    "gulp-imagemin": "^1.2.1",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-static-cache": "0.0.6",
+    "gulp-uglify": "^1.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<title><%= title %></title>
+	<link rel="stylesheet" type="text/css" href="/css/chat.css?v=38614f70">
+	<script type="text/javascript">
+		(function(){
+			var _requestAnimationFrame = window.requestAnimationFrame;
+			setInterval = window.requestAnimationFrame = window.XMLHttpRequest = function(){};
+		})();
+	</script>
+	<script type="text/javascript" src="/js/bower_components/jquery/jquery.js"></script>
+</head>
+<body>
+	<%- body %>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<div class="m-send">
+	<div class="m-other">
+		<b class="u-i u-i-emo j-emo"></b>
+	</div>
+	<input type="text" id="sendText" placeholder="说点啥呢？" autocomplete="off">
+</div>
+
+<div class="m-content">
+	<div class="m-bd">
+		<ul id="message"></ul>
+	</div>
+</div>
+
+<div class="m-emo-box hide"></div>
+
+<script type="application/javascript" src="/js/bower_components/socket.io/socket.io.js"></script>
+<script id="emoji-template" type="text/template">
+	<ul class="emoji-list">
+		<% for(var i=0,len=emoji.length; i<len; i++){ %>
+			<li>
+				<img src="http://twemoji.maxcdn.com/36x36/<%= emoji[i] %>.png" alt="[/<%= emoji[i] %>]" width="36" height="36"/>
+			</li>
+		<% } %>
+	</ul>
+</script>
+<script src="/js/chat.js"></script>

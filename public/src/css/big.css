@@ -1,0 +1,44 @@
+@media screen and (min-width: 1023px){
+	.m-signin-box .m-ct,
+	.m-signin-box .m-hd{
+		float: left;
+		padding-top: 10%;
+		width: 50%;
+		height: 100%;
+	}
+	.m-signin-box .m-hd{
+		padding-left: 10%;
+	}
+    .m-signin-box .m-ct{
+	    padding-left: 10%;
+	    padding-right: 10%;
+    }
+	.m-signin-box h1{
+		overflow: hidden;
+		margin-bottom: 70px;
+		width: 142px;
+		height: 0;
+		padding-top: 83px;
+		background: url("../img/common/login_b.jpg");
+	}
+    .m-signin-box h2{
+	    font-size: 30px;
+    }
+    .m-signin-box .m-ct h2{
+	    margin-bottom: 62px;
+	    font-size: 40px;
+    }
+    .m-signin-box input{
+	    padding-left: 60px;
+	    background: #fff url("../img/login/user.png") no-repeat 10px center;
+    }
+
+	.new .m-user-box{
+		width: 100px;
+	}
+
+    .m-user-box .u-username{
+	    font-size: 14px;
+    }
+
+}

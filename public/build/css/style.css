@@ -1,0 +1,23 @@
+/* login
+=============================================*/
+.m-signin-box{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+
+	background-color: #f1f5f8;
+}
+.m-signin-box .m-ct,
+.m-signin-box .m-hd{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.m-signin-box .m-hd{
+	color: #fff;
+	background-color: #3093f7;
+}
+.m-signin-box .m-ct{
+	color: #3093f7;
+}
+
